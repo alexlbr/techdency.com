@@ -1,18 +1,7 @@
-/*
- * Author: Carlos Alvarez
- * URL: http://alvarez.is
- *
- * Project Name: STANLEY - Free Bootstrap 3 Theme
- * Version: 1.0
- * URL: http://blacktie.co
- */
-
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import "http://fonts.googleapis.com/css?family=Open+Sans:300";
 
 body {
   	background-color: #ffffff;
-  	font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     font-size: 14px;
     color: #555;
 
@@ -22,7 +11,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Open Sans",sans-serif;
     font-weight: 700;
     color: #333;
 }
@@ -31,14 +20,23 @@ h1 {
 	font-size: 35px;
 	margin-top: 30px;
 	margin-bottom: 30px;
+	color: #555;
+	line-height: 45px;
+}
+
+h2 {
+	font-size:34px;
+}
+
+h3 {
+	font-size:28px;
 }
 
 
 
 /* Paragraph & Typographic */
 p {
-    line-height: 28px;
-    margin-bottom: 25px;
+    line-height: 25px;
     font-size: 16px;
 }
 
@@ -94,6 +92,11 @@ a:after {
 	padding-top: 70px;
 }
 
+.navbar {
+	padding-bottom: 35px;
+	padding-top: 35px;
+}
+
 .navbar-inverse {
 	background-color: #1abc9c;
 	border-color: #16a085;
@@ -111,6 +114,8 @@ a:after {
 	font-weight: 700;
 	font-size: 20px;
 	letter-spacing: 2px;
+	font-family: "Open Sans",sans-serif;
+	text-transform: uppercase;
 }
 
 .navbar-inverse .navbar-brand {
@@ -139,29 +144,28 @@ a:after {
 }
 
 
-/* +++++ WRAP SECTIONS +++++ */
-
-#ww {
+.section {
 	padding-top: 70px;
 	padding-bottom: 70px;
-	background-color: #f2f2f2;
 }
 
+.grey-bg {
+	
+	background-color: #EEE;
+}
+.green-bg {
+	background-color: #1abc9c;
+}
+
+.green-bg h2, .green-bg h3, .green-bg p {
+	color: #fff;
+}
 
 #footer {
 	background-color: #2f2f2f;
 	padding-top: 50px;
-	padding-bottom: 50px; 
-}
-
-#footer p {
-	color: white;
-}
-
-#footer h4 {
-	color: white;
-	text-transform: uppercase;
-	padding-bottom: 20px;
+	padding-bottom: 50px;
+	color: white; 
 }
 
 
@@ -277,4 +281,22 @@ h4 {
 	position:absolute;
 	text-decoration: none;
 	-webkit-font-smoothing: antialiased;
+}
+
+.section-who {
+	background-color: #1abc9c;
+}
+.section-who h2{
+	color:white;
+}
+i.fa {
+	color: #1abc9c;
+}
+.jumbo {
+	
+	padding:80px 0;
+}
+
+.navbar {
+    text-transform: none;
 }
