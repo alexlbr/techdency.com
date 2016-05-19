@@ -334,3 +334,7 @@ i.fa {
 	margin-left:-50px;
 	top:0;
 }
+.navbar-toggle .fa {
+	
+	font-size: 25px;
+}
