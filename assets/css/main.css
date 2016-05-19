@@ -35,7 +35,7 @@ h3 {
 
 
 /* Paragraph & Typographic */
-p {
+p , li{
     line-height: 25px;
     font-size: 16px;
 }
@@ -102,6 +102,11 @@ a:after {
 	border-color: #16a085;
 }
 
+.navbar a.active {
+	border: 1px solid #1abc9c;
+    border-radius: 5px;
+}
+
 .navbar-inverse .navbar-nav > li > a {
 	color: white;
 }
@@ -156,8 +161,11 @@ a:after {
 .green-bg {
 	background-color: #1abc9c;
 }
+.green-bg a{
+	color:#555;
+}
 
-.green-bg h2, .green-bg h3, .green-bg p {
+.green-bg h2, .green-bg h3, .green-bg p, .green-bg li {
 	color: #fff;
 }
 
@@ -240,7 +248,7 @@ bt {
 
 /* glyphicon Configuration */
 
-.glyphicon {
+.bg-warning .fa {
 	font-size: 40px;
 	color: #1abc9c;
 }
@@ -262,6 +270,12 @@ h4 {
 	
 	padding-bottom:20px;
 }
+
+.bg-warning {
+
+	position:relative;
+}
+
 .react-js-curriculum {
 	margin-top:20px;
 }
@@ -299,4 +313,24 @@ i.fa {
 
 .navbar {
     text-transform: none;
+}
+
+.price {
+	padding-top:20px;
+	font-size:18px;
+}
+.price .label {
+	
+	font-size: 22px;
+}
+.triangle {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 50px 50px 0 50px;
+	border-color: #ffffff transparent transparent transparent;
+	position: absolute;
+	left:50%;
+	margin-left:-50px;
+	top:0;
 }
