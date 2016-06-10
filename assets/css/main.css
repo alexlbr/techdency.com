@@ -14,6 +14,8 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Open Sans",sans-serif;
     font-weight: 700;
     color: #333;
+	margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -38,10 +40,6 @@ h3 {
 p , li{
     line-height: 25px;
     font-size: 16px;
-}
-
-.centered {
-    text-align: center;
 }
 
 /* Links */
@@ -262,7 +260,7 @@ li li {
 	margin-left:20px;
 }
 
-h4 {
+.bg-warning h4 {
 	
 	padding:20px 0;		
 }
@@ -276,9 +274,6 @@ h4 {
 	position:relative;
 }
 
-.react-js-curriculum {
-	margin-top:20px;
-}
 .anchor-link:hover a span {
 	
 	opacity:1;
@@ -307,8 +302,12 @@ i.fa {
 	color: #1abc9c;
 }
 .jumbo {
-	
+	background-image: url("/assets/img/code_bg.jpg");
 	padding:80px 0;
+}
+
+.jumbo h1 {
+	color:white;
 }
 
 .navbar {
