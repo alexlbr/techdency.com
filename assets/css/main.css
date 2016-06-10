@@ -337,3 +337,8 @@ i.fa {
 	
 	font-size: 25px;
 }
+
+.text-center .img-responsive {
+	
+	display: inline-block;
+}
